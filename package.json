@@ -1,0 +1,24 @@
+{
+  "name": "codechups-candy-theme",
+  "displayName": "CodeChups Candy Theme",
+  "description": "A sweet and colorful VSCode theme inspired by Chupa Chups. Includes both light and dark variants.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CodeChups Candy Light",
+        "uiTheme": "vs",
+        "path": "./themes/codechups-candy-light.json"
+      },
+      {
+        "label": "CodeChups Candy Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/codechups-candy-dark.json"
+      }
+    ]
+  }
+}
