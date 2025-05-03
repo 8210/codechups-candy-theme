@@ -1,4 +1,10 @@
-
+// candyPink: #F371A0  
+// candyLime: #A6E830  
+// candyBlue: #3D98F4  
+// candyYellow: #FFDD33  
+// candyOrange: #FF9932  
+// coral: #E06C75  
+// commentGray: #6C737E  
 {
   "name": "CodeChups Candy Dark",
   "type": "dark",
@@ -70,35 +76,6 @@
       "scope": "support.type.property-name, support.variable.property",
       "settings": {
         "foreground": "#E06C75"
-      }
-    }
-    ,
-    {
-      "name": "HTML Tags",
-      "scope": ["entity.name.tag", "meta.tag"],
-      "settings": {
-        "foreground": "#F371A0"
-      }
-    },
-    {
-      "name": "HTML Attribute Names",
-      "scope": ["entity.other.attribute-name.html", "meta.attribute"],
-      "settings": {
-        "foreground": "#FFD84A"
-      }
-    },
-    {
-      "name": "HTML Attribute Values",
-      "scope": ["string.quoted.double.html", "string.quoted.single.html"],
-      "settings": {
-        "foreground": "#A6E830"
-      }
-    },
-    {
-      "name": "HTML Text Content",
-      "scope": ["text.html.basic"],
-      "settings": {
-        "foreground": "#CFCFD1"
       }
     }
   ]

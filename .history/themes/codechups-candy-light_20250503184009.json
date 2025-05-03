@@ -1,0 +1,76 @@
+
+{
+  "name": "CodeChups Candy Light",
+  "type": "light",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#383A42",
+    "editor.selectionBackground": "#D81B604D",
+    "editor.lineHighlightBackground": "#EEEEEE",
+    "editorCursor.foreground": "#000000",
+    "sideBar.background": "#F3F3F3",
+    "sideBar.foreground": "#424242",
+    "statusBar.background": "#F3F3F3",
+    "statusBar.foreground": "#424242"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": "comment, punctuation.definition.comment",
+      "settings": {
+        "foreground": "#767676",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#D81B60"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string, entity.other.inherited-class",
+      "settings": {
+        "foreground": "#58840A"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": "entity.name.function, meta.require, support.function.any-method",
+      "settings": {
+        "foreground": "#0A65C1"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#C3222E"
+      }
+    },
+    {
+      "name": "Classes/Types",
+      "scope": "entity.name.type, entity.name.class, entity.name.namespace, support.class, entity.other.inherited-class",
+      "settings": {
+        "foreground": "#89750F"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": "constant.numeric, constant.language.boolean, constant.language.json",
+      "settings": {
+        "foreground": "#B25900"
+      }
+    },
+    {
+      "name": "Object Properties",
+      "scope": "support.type.property-name, support.variable.property",
+      "settings": {
+        "foreground": "#C3222E"
+      }
+    }
+  ]
+}

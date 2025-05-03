@@ -1,0 +1,91 @@
+{
+  "name": "CodeChups Candy Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#30313b",
+    "editor.foreground": "#CFCFD1",
+    "editor.selectionBackground": "#F371A04D",
+    "editor.lineHighlightBackground": "#3c3f4d",
+    "editorCursor.foreground": "#FFD84A",
+    "sideBar.background": "#292A34",
+    "sideBar.foreground": "#D7DAE0",
+    "statusBar.background": "#292A34",
+    "statusBar.foreground": "#B0B3BA"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#7B7E89",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#F371A0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#A6E830"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#40A9F3"
+      }
+    },
+    {
+      "scope": [
+        "variable"
+      ],
+      "settings": {
+        "foreground": "#EC5D65"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.class",
+        "support.class",
+        "storage.type.class"
+      ],
+      "settings": {
+        "foreground": "#FFD84A"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean"
+      ],
+      "settings": {
+        "foreground": "#FF9932"
+      }
+    },
+    {
+      "scope": [
+        "support.type.property-name",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#F37A60"
+      }
+    }
+  ]
+}

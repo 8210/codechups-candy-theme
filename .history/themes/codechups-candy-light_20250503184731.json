@@ -96,34 +96,5 @@
         "foreground": "#C3222E"
       }
     }
-    ,
-    {
-      "name": "HTML Tags",
-      "scope": ["entity.name.tag", "meta.tag"],
-      "settings": {
-        "foreground": "#D81B60"
-      }
-    },
-    {
-      "name": "HTML Attribute Names",
-      "scope": ["entity.other.attribute-name.html", "meta.attribute"],
-      "settings": {
-        "foreground": "#89750F"
-      }
-    },
-    {
-      "name": "HTML Attribute Values",
-      "scope": ["string.quoted.double.html", "string.quoted.single.html"],
-      "settings": {
-        "foreground": "#58840A"
-      }
-    },
-    {
-      "name": "HTML Text Content",
-      "scope": ["text.html.basic"],
-      "settings": {
-        "foreground": "#383A42"
-      }
-    }
   ]
 }

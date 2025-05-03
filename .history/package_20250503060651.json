@@ -1,15 +1,7 @@
 {
   "name": "codechups-candy-theme",
   "displayName": "CodeChups Candy Theme",
-  "description": "A sweet and colorful VSCode theme inspired by the nostalgic charm of retro candies. Includes both light and dark variants.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/8210/codechups-candy-theme"
-  },
-  "bugs": {
-    "url": "https://github.com/8210/codechups-candy-theme/issues"
-  },
-  "homepage": "https://github.com/8210/codechups-candy-theme#readme",
+  "description": "A sweet and colorful VSCode theme inspired by Chupa Chups. Includes both light and dark variants.",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.50.0"
